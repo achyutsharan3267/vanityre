@@ -222,6 +222,19 @@ a.explore_more {
 .about_us_img figure{
     text-align: center;
 }
+footer.footer {
+    text-align: center;
+    background: #081414;
+    padding: 30px 20px;
+    color: #fff;
+}
+.logo_footer h2 {
+    font-size: 60px;
+    line-height: 1;
+    color: #CA2121;
+    font-family: 'Ephesis', cursive;
+    margin-bottom: 20px;
+}
 @media(min-width:767px){
     .categories_heading {
         font-size: 46px;
