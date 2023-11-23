@@ -7,6 +7,9 @@ font-family: 'poppins', sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: url(../img/backgrond.webp) top left no-repeat;
+}
 .container{
     max-width: 1500px;
     width: 100%;
@@ -239,7 +242,11 @@ a.explore_more {
     padding: 50px;
 }
 }
-
+@media(min-width:1199px){
+    .service_items {
+        flex: 0 0 calc(25% - 20px);
+    }
+}
 
 
 
