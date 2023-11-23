@@ -289,7 +289,7 @@ a.explore_more {
 	justify-content: center;
 	align-items: center;
 	padding-top: calc(2rem + 1vmin);
-	width: 50%;
+	width: 100%;
 }
 
 #imgDiv {
