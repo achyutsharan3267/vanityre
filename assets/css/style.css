@@ -1,0 +1,128 @@
+/* font-family: 'Ephesis', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'poppins', sans-serif; */
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    width: 100%;
+}
+.top_header {
+    padding: 7px 0;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top_header .social_media ul{
+    padding: 0;
+    margin: 0;
+}
+a.telephone {
+    display: flex !important;
+    text-decoration: none;
+    align-items: center;
+}
+.telephone span {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+.social_media {
+    display: flex;
+    justify-content: space-between;
+}
+.top_header .social_media li a {
+    display: block;
+    width: 25px;
+    margin-right: 6px;
+}
+.top_header .social_media li a img{
+    width: 100%;
+}
+.location li a {
+    display: flex !important;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logo h2{
+    font-size: 34px;
+    line-height: 1;
+    color: #CA2121;
+    font-family: 'Ephesis', cursive
+}
+.main_header {
+    padding-top: 50px;
+    background: rgba(8,20,20,1);
+    padding-bottom: 10px;
+}
+.carousel-item {
+    height: 580px;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.categories_heading {
+    font-size: 46px;
+    text-transform: capitalize;
+    color: rgb(213, 55, 45);
+    line-height: 1.5;
+    border-style: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 5px solid;
+    width: 20%;
+    margin: 0 auto 40px;
+    border-radius: 40px;
+}
+/* .layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  } */
+  .layout div {
+    flex: 0 0 33.33%;
+    margin-bottom: 50px;
+}
+.categories_items img{
+    width: 100%;
+}
+.categories {
+    padding: 70px 0;
+}
+.categories_items h6 {
+    color: rgb(55, 55, 55);
+    font-family: 'poppins', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.owl-item{
+    width: 128.906px; 
+    margin-right: 10px;
+}
+.owl-item img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+.owl-carousel .owl-item {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
