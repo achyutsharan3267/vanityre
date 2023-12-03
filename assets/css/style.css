@@ -235,6 +235,50 @@ footer.footer {
     font-family: 'Ephesis', cursive;
     margin-bottom: 20px;
 }
+.icon {
+    width: 41px;
+    height: 42px;
+    min-width: 41px;
+    margin-right: 10px;
+}
+.icon img{
+    width: 100%;
+}
+.conteat_us_points li a{
+    display: flex;
+    /* align-items: center; */
+    text-decoration: none;
+}
+.conteat_us_points li a h5{
+    font-size: 17px;
+    line-height: 1;
+    color: rgb(51, 51, 51);
+}
+.conteat_us_points li a  strong {
+    font-size: 12px;
+    line-height: 1;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+}
+.contact_us_more {
+    flex: 0 0 30%;
+}
+.conteat_us_points li {
+    margin-bottom: 50px !important;
+}
+.contact_us_content {
+    flex: 0 0 60%;
+}
+.contact_us_content .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.contact_us_content .form-row  .form-group.col-md-6{
+    flex: 0 0 calc(50% - 10px);
+}
 @media(min-width:767px){
     .categories_heading {
         font-size: 46px;
@@ -301,6 +345,9 @@ footer.footer {
 	overflow: hidden;
 	display: grid;
 	place-items: center;
+	background:url("https://i0.wp.com/utsav360.com/wp-content/uploads/2019/08/Top-4-tires-brand-in-Nepal.jpg?fit=1200%2C500&ssl=1") left center no-repeat;
+	background-size:contain
+	
 }
 
 .review-wrap {
@@ -310,6 +357,7 @@ footer.footer {
 	align-items: center;
 	padding-top: calc(2rem + 1vmin);
 	width: 100%;
+	background: rgba(255,255,255,0.8);
 }
 
 #imgDiv {
