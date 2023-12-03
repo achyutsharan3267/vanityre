@@ -285,40 +285,41 @@
                 </ul>
             </div>
             <div class="contact_us_content">
-                <form>
+                <form name="">
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="inputEmail4">First Name</label>
-                        <input type="text" class="form-control" id="inputname14" placeholder="Enter Your First Name">
+                        <input type="text" class="form-control" id="inputname14" name=" " placeholder="Enter Your First Name">
                       </div>
                       <div class="form-group col-md-6">
                         <label for="inputPassword4">Last Name</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Enter Your Last Name">
+                        <input type="password" class="form-control" id="inputPassword4" name="lname" placeholder="Enter Your Last Name">
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="inputAddress">Enter you car modal</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="Ex- Maruti Suzuki Dzire">
+                      <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Ex- Maruti Suzuki Dzire">
                     </div>
                     <div class="form-group">
                       <label for="inputAddress2">Enter Tyre size</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="165 / 80 R14 ">
+                      <input type="text" class="form-control" id="inputAddress2" name="size" placeholder="165 / 80 R14 ">
                     </div>
-                    <div class="form-row">
+                    <div class="form-row flex-column flex-md-row">
                       <div class="form-group col-md-6">
                         <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="text" class="form-control" name="city" id="inputCity">
                       </div>
                       <div class="form-group col-md-4">
                         <label for="inputState">State</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="text" class="form-control" name="state" id="inputCity">
                       </div>
                       <div class="form-group col-md-2">
                         <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
+                        <input type="text" class="form-control" name="zip" id="inputZip">
                       </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                    <input type="button" class="submit_btn" value="submit" name="submit">
                   </form>
             </div>
         </div>

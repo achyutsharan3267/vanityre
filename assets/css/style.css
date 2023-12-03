@@ -279,6 +279,21 @@ footer.footer {
 .contact_us_content .form-row  .form-group.col-md-6{
     flex: 0 0 calc(50% - 10px);
 }
+.submit_btn{
+    border: 1px solid #CA2121;
+    color: #fff;
+    background: #CA2121;
+    padding: 8px 18px;
+    border-radius: 100px;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+}
+.contact_us{
+    margin-bottom: 50px;
+}
 @media(min-width:767px){
     .categories_heading {
         font-size: 46px;
